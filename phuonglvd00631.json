@@ -1,0 +1,73 @@
+{
+	"id": "dc55bc55-a4f3-4969-bf11-a15f3c0689b2",
+	"name": "phuonglvd00631",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"12e1627c-7b92-4092-a966-0a50ec17ed42"
+	],
+	"protocolProfileBehavior": {},
+	"folders": [
+		{
+			"id": "12e1627c-7b92-4092-a966-0a50ec17ed42",
+			"name": "employee",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "dc55bc55-a4f3-4969-bf11-a15f3c0689b2",
+			"folder": null,
+			"order": [
+				"f1ae2f86-c05f-4f9e-af69-9b3db073be8b",
+				"165a7ced-718f-419d-bcd5-87ac7338692d"
+			],
+			"folders_order": [],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"requests": [
+		{
+			"id": "165a7ced-718f-419d-bcd5-87ac7338692d",
+			"name": "find all",
+			"url": "http://localhost:8080/api/v1/employee",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "12e1627c-7b92-4092-a966-0a50ec17ed42",
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "f1ae2f86-c05f-4f9e-af69-9b3db073be8b",
+			"name": "create",
+			"url": "http://localhost:8080/api/v1/employee",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": "12e1627c-7b92-4092-a966-0a50ec17ed42",
+			"rawModeData": "{\n    \"name\": \"la phuong\",\n    \"wage\" : 1000\n}",
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
